@@ -1,23 +1,24 @@
 {
-  "name": "rest-api-express",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "express-starter",
+  "version": "0.0.0",
+  "description": "node express starter templates",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ChrisAchinga/rest-api-express.git"
+    "url": "git+https://github.com/ChrisAchinga/express-starter.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "node",
+    "express",
+    "javascript"
+  ],
+  "author": "Chris Achinga",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ChrisAchinga/rest-api-express/issues"
+    "url": "https://github.com/ChrisAchinga/express-starter/issues"
   },
-  "homepage": "https://github.com/ChrisAchinga/rest-api-express#readme",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+  "homepage": "https://github.com/ChrisAchinga/express-starter#readme"
 }
