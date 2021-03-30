@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/ChrisAchinga/express-starter/issues"
   },
-  "homepage": "https://github.com/ChrisAchinga/express-starter#readme"
+  "homepage": "https://github.com/ChrisAchinga/express-starter#readme",
+  "devDependencies": {
+    "express": "^4.17.1"
+  }
 }
