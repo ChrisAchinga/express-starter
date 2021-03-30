@@ -1,5 +1,11 @@
+import path from 'path'
+import express from 'express'
+const app = express()
+
+
 const routes = (app) => {
-  app.get('/', (req, res) => {
+  app.use(express.static(path.join(__dirname, 'public')))
+  app.get('/api', (req, res) => {
     res.send('Application Working')
   })
 }
