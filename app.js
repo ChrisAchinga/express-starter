@@ -1,10 +1,10 @@
-const express = require('express')
+import express from 'express'
+import routes from './src/routes'
+
 const app = express()
 
 const PORT = 3000
 
-app.get('/', (req, res) => {
-  res.send('testing endpont')
-})
+routes(app)
 
 app.listen(PORT, () => console.log(`app running on port ${PORT}`))
